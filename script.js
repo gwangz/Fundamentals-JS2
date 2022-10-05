@@ -164,7 +164,7 @@ for(let excercise = 1; excercise < 4; excercise++){
     }
 }
 
-*/
+
 
 //while loop
 
@@ -188,3 +188,53 @@ while (dice !==6) {
     if (dice === 6 ) console.log( 'loop about to end...')
 }
 
+
+
+function readingJs (today, nextweek){
+    const study = `i will always study js ${today} and ${nextweek}`;
+    console.log(readingJs);
+    return study;
+}
+
+
+
+//function declaration
+function add (a, b){
+    console.log(a + b);
+}
+
+add (2, 3);
+*/
+
+//function expression
+// const add = function (a, b){
+//     console.log(a+b);
+// }
+
+// add(2,3);
+
+// Arrow functions
+
+// let add = (a, b) => a + b;
+// console.log(add(3, 2));
+
+// const great = (a, b) => {
+//     if (a > b)
+//     return "a is greater than b";
+//     else
+//     return "a is less than b";
+// }
+// console.log(great(10, 17));
+
+// function great (){
+//     console.log('Hello there');
+// }
+
+// great();
+
+function add (a, b){
+    console.log (a + b);
+}
+
+add(3, 4);
+add(2, 9);
